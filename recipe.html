@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Croix</title>
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Google Fonts -->
+        <!-- Add your google fonts script here -->
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="recipe.css">
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light navbar inverse sb-navbar">
+		<div class="navbar-header">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navLinks">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"> <img src="img/pop_logo.jpeg" class="navbar-brand">Pop!</a>
+		</div>
+		<ul class="nav navbar-nav" id="navLinks">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">History</a></li>
+			<li><a href="recipe.html">Recipe</a></li>
+			<li><a href="test.html">Testimonials</a></li>
+		</ul>
+	</nav>
+<!-- Row title -->	
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="title">
+				<h1>Recipe</h1>
+			</div>
+		</div>
+	</div>
+    <div class="owl-carousel owl-theme">
+          <div class="item"><img src="img/img1.jpg"></div>
+          <div class="item"><img src="img/img2.jpg"></div>
+          <div class="item"><img src="img/img3.jpg"></div>
+          <div class="item"><img src="img/berrypop.jpeg"></div>
+    </div>
+    <div class="container">
+<!-- Row  History:La Criox-->  
+    <div class="row">
+    	<div class="col-sm-12">
+    		<div>
+    			<h2>Ingredients</h2>
+    		</div>
+    	</div>
+    </div>
+      <div class=" info row ing">
+    	<div class="col-sm-12">
+    		<ul class="ingredients">
+                <li>Fresh or frozen fruit</li>
+                <li>La croix SParkling Water</li>
+                <li>Popsicle Mold</li>
+            </ul>
+       </div>
+</div>
+       <div class="row">
+           <div class="col-sm-12">
+               <h2>Steps</h2>
+           </div>
+       </div>
+       <div class="row">
+        	<div class="col-sm-12">
+        		<ul class="steps">
+                    <li>Add a couple drops of Stevia to the LaCroix and mix together</li>   
+                    <li>Insert fruit into the popsicle or push pop molds.</li> 
+                    <li>Pour liquid over the fruit and close the mold.</li>  
+                    <li>Allow it to freeze for a few hours.</li>
+                    <li>Take out and enjoy!</li>
+                </ul>
+        	</div>
+        </div>
+</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+<script src="owl.carousel.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    });
+</script>
+</body>
+</html>

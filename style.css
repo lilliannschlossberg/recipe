@@ -1,0 +1,28 @@
+body{
+	background-image: url("https://cdn.vox-cdn.com/thumbor/4zQA7yGz3n4wBwJ6-CBIT8W_q-Q=/0x0:759x960/1200x800/filters:focal(320x420:440x540)/cdn.vox-cdn.com/uploads/chorus_image/image/61650183/lacroix.0.jpg");
+	background-color: #cccccc;
+	font-family: helvetica;
+}
+h1{
+	background-color: #002C6A;
+	color: white;
+	font-family: helvetica;
+	background-image: ;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: helvetica;
+}
+.p_home{
+	color: #002C6A;
+	background-color: white;
+	border-color: #002C6A;
+	border: solid 5px;
+}
+p > .p_home{
+
+}
+.logo img{
+	height: 25px;
+}
